@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;1,200&family=Bebas+Neue&family=Pacifico&family=Prata&display=swap');
+@font-face {
+  font-family: benguib;
+  src: url(../fonts/benguib.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}/* top header section */
+.header-section{
+    background-image: url(../img/back1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    text-align: right;
+    color: black;
+    padding-top: 115px;
+    padding-right: 40px;
+}
+.header-section h1{
+    font-size: 50px;
+    font-family: benguib;
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: white;
+}
+.header-section h2{
+    font-family: Renitah;
+    color: rgb(243,156,18);    font-weight: lighter;
+    font-size: 40px;
+}
+.header-section p{
+    font-family: 'Prata', serif;
+    font-size: 17px;
+    color: white;
+}
+

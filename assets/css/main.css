@@ -1,0 +1,599 @@
+
+/***********************************Contact us section**************************************************/
+/*<!-- Top Header  -->*/
+.animation-text{
+    animation-name: fadeOut;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 80%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.contact-header-section{
+    background-image:  radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6783088235294117) 0%),url(../img/image6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    text-align: center;
+    color: black;
+    padding-top: 120px;
+    padding-right: 40px;
+}
+.top-header-logo{
+    font-family: Renitah;
+    color: rgb(243,156,18);
+    font-weight: lighter;
+     margin-top: 5px;
+    font-size: 50px;
+}
+.header-section-primary{
+    font-size: 50px;
+    font-family: benguib;
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.header-section-secondary{
+    font-family: 'Prata', serif;
+    font-size: 17px;
+    color: white;
+}
+
+/*<!-- Contact Us content -->*/
+.contact-us-section{
+    padding: 80px 0px;
+}
+.contact-info{
+    color: black;
+    text-align: justify;
+    border: 2px solid #F7F7F7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    padding: 20px 0px;
+}
+.contact-info h1, .newsletter-section h1{
+    font-family: 'Prata', serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contact-info h1:after
+{
+   content: "";
+    width: 100px;
+    height: 3px;
+    left: 40%;
+    background-color: rgb(243,156,18);
+    position: relative;
+    display: block;
+    top: 10px;
+}
+.icon{
+    float: left;
+    font-size: 40px;
+    line-height: 40px;
+    width: 30px;
+    height: 30px;
+}
+.text{
+    float: right;
+    margin-left: 40px;
+    
+}
+.text h2,.text h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.contact-form{
+    background-color: #F7F7F7;
+    width: 100%;
+    padding: 35px 40px;
+    text-align: center;
+}
+.contact-form h1{
+    font-family: 'Prata', serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.me1{
+    margin-bottom: 30px;
+    border-color: white;
+
+}
+.main-button{
+    margin-top: 30px;
+    padding: 15px 22px;
+    background-color:  rgb(243,156,18);
+    font-family: 'Prata', serif;
+    border:none; 
+    color: white;
+    font-size: 16px;
+}
+@media screen and (max-width:500px){
+    .icon {
+        font-size: 20px;
+    }
+}
+/*<!-- Three Section  -->*/
+.tpad{
+    background-color: #F7F7F7;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+.tpad:hover{
+    background-color: rgb(243,156,18);
+    color: white;
+}
+.three-section{
+    margin-bottom: 50px;
+}
+.three-section h1{
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Prata', serif;
+}
+@media screen and (max-width:700px) {
+  .header-section-primary{
+    font-size: 30px;
+  }
+}
+/**************************************About Section***********************************************/
+/* Top Header  */
+.about-header-section{
+    background-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6783088235294117) 0%),url(../img/image4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+    text-align: center;
+    color: black;
+    padding-top: 120px;
+    padding-right: 40px;
+}
+ /* dicover section */
+.about-discover{
+    padding: 60px 0px;
+}
+.small-heading{
+     font-family: Renitah;
+    color: rgb(243,156,18);
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+.small1-heading{
+      font-family: Renitah;
+    color: rgb(243,156,18);
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+.small-heading:after
+{
+   content: "";
+    width: 50px;
+    height: 3px;
+    left: 15px;
+    background-color: rgb(243,156,18);
+    position: relative;
+    display: block;
+    top: 10px;
+}
+.primary-heading{
+     font-family: benguib;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.secondary-heading{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: justify;
+}
+.discover-section1{
+    padding: 40px 20px;
+}
+.image1{
+    top: 30px; 
+    padding: 5px;
+}
+.customer-no-section{
+    background-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6783088235294117) 0%),url(../img/image4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 60px 0px;
+     text-align: center;
+}
+
+.customer-no-section h1{
+  color: rgb(243,156,18);
+  font-family: benguib;
+  font-size: 45px;
+  margin-top: 20px;
+  text-align: center;
+}
+.customer-no-section p{
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+   font-family: 'Prata', serif;
+  text-transform: uppercase;
+}
+.gallary-section{
+    padding: 80px 0px;
+
+}
+.gallary-section p{
+    text-align: center;
+    margin: 50px 0px;
+}
+.box{
+    display: block;
+    float: left;
+    width: 20%;
+}
+.box img{
+    width: 100%;
+
+}
+.box img:hover{
+    opacity: 0.95;
+}
+.image1-section{
+    background-color: #F7F7F7;
+    padding: 60px;
+}
+.team-member{
+   padding: 60px 0px;
+}
+.card-body{
+    padding: 30px;
+}
+.card-text1{
+    float: left;
+}
+.team-icon{
+    float: right;
+}
+.card-text2{
+    float: left;
+}
+.team-icon i{
+    margin-right: 5px;
+    font-size: 17px;
+}
+/************************************************Menuu Section*********************/
+.menu-header-section{
+    background-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6783088235294117) 0%),url(../img/menu-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+    text-align: center;
+    color: black;
+    padding-top: 120px;
+    padding-right: 40px;
+}
+
+.menu h3{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(243,156,18);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 900;
+}
+.menu-section{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.menu-top-section{
+    padding: 80px 0px;
+    background-color: #F7F7F7;
+}
+.secondary-heading1{
+    font-family:  'Prata', serif;
+    font-size: 17px;
+    font-weight: 900;
+}
+/*book table*/
+.book-table-section{
+    padding:  120px 60px 60px 60px;
+}
+.table-form{
+    padding: 60px 40px;
+    background-color: #F7F7F7;
+    height: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+     } 
+.table-form h1{
+   font-family:  'Prata', serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+}   
+.table-rule{
+    background-image: url(../img/home-bg.jpg);
+    background-size: cover;
+    color: white;
+    padding:0px;
+    height: 500px;
+    background-color: red;
+}
+.book-button{
+    background-color: orange;
+    color: white;
+    font-weight: 900;
+}
+
+@media screen and (max-width:700px) {
+  .book-table-section{
+    padding:  0px;
+}
+.table-form h1{
+    font-size: 20px;
+} 
+}
+
+/*******************Blog Section***********************/
+/*blog section*/
+.blog-header-section{
+    background-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6783088235294117) 0%), url(../img/image5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+    text-align: center;
+    color: black;
+    padding-top: 120px;
+    padding-right: 40px;
+}
+
+.card{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    margin-top: 80px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+}
+.bottom-left{
+    position: absolute;
+     top: 20px;
+     left: 10px;
+     color: white;
+     background-color: rgb(243,156,18);
+     padding: 10px;
+     opacity: 0.8;
+}
+.card h1,.sidebar h1{
+    font-size: 20px;
+    font-family: 'Prata', serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.card-font h3{
+    font-size: 12px;
+    font-weight: 900;
+}
+.card-font h2{
+    font-size: 16px;
+    font-weight: 900;
+}
+.card-font p{ 
+    font-weight: 900;
+    font-size: 16px;
+}
+.blog-button{
+    background-color: rgb(243,156,18);
+    border: none;
+    padding: 0px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+.blog-button a{
+    text-decoration: none;
+}
+/*sidebar*/
+.sidebar1{
+    
+    background-color: #F7F7F7;
+    padding: 40px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+}
+.sidebar1 span{
+    float: right;
+}
+.space{
+   padding: 80px 0px; 
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}
+@media screen and(max-width:  500px){
+    .blog-section{
+        padding: 0px;
+    }
+}
+/*************** Blog Single Page******************/
+.blog-single-page{
+    padding: 140px 0px;
+}
+.blog-single-page h1{
+    font-size: 30px;
+    font-family: 'Prata', serif;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.blog-single-page h2{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin: 10px 0px;
+    color: rgb(243,156,18);
+}
+.blog-single-page i{
+    color: #666666;
+    margin: 10px;
+}
+.blog-single-page p{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 28px;
+    font-size:15px;
+}
+.like-info{
+ margin-top: 15px;
+}
+.social-icons{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+.center-text{
+    background-color: #F7F7F7;
+}
+.comment-section{
+    background-color: #F7F7F7;
+    margin: 30px 0px;
+}
+.comment-section h3{
+    font-size: 20px;
+    font-family: 'Prata', serif;
+    font-weight: 900;
+}
+.sidebar2{
+    background-color: #F7F7F7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+   
+}
+.sidebar2 h1,.sidebar3 h1{
+    font-size: 20px;
+}
+.sidebar2 p{
+    margin: 0px;
+}
+.sidebar2 span{
+    float: right;
+}
+.sidebar3 {
+    margin-top: 40px;
+    background-color: #F7F7F7;
+    padding: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+}
+.recent-post{
+    display: flex;
+    margin: 15px 0px;
+}
+.recent-post h2{
+    margin: 0px 20px;
+    font-family: 'Prata', serif;
+    color: black;
+}
+.recent-post span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: rgb(243,156,18);
+}
+.single-comment{
+    padding: 20px;
+}
+.input-comment{
+    display: flex;
+}
+
+.input-comment img{
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.comment-button{
+    margin: 20px 0px;
+    background-color: rgb(243,156,18);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+/*footer*/
+.footer{
+    background-color: rgb(27, 27, 27);
+    height:auto;
+    padding: 50px 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-col div{
+    font-weight: 200;
+}
+.footer-col{
+margin-bottom: 20px;
+}
+.footer h4{
+    font-size: 17px;
+    font-family: 'Prata', serif;
+}
+.footer-col h4:after
+{
+   content: "";
+    width: 100px;
+    height: 1px;
+    background-color: rgb(243,156,18);
+    position: relative;
+    display: block;
+    top: 10px;
+    margin-bottom: 20px;
+}
+.social-links-footer a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #646363;
+    text-align: center;
+    margin: 0px 10px 10px 0px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+.social-links-footer a:hover{
+    /* padding: 0px; */
+    background-color: white;
+}
